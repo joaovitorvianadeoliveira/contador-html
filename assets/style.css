@@ -1,0 +1,36 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-shadow: 0;
+}
+main{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 100vh;
+height: 100vh;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: aquamarine;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px;
+
+}
+
+button{
+    padding: 15px 10px;
+    border-radius: 9px;
+}
+
+#buttons{
+    display: flex;
+    gap: 20px
+}
+ 
